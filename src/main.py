@@ -4,7 +4,7 @@ from getch import getch
 import glob
 def FuckDrive():
     f=open(os.path.join(path,'fuckdisk'+str(times)),'w')
-    f.write(write_str)
+    f.write(write_str * 1024 * 1024 * filesize)
     f.close()
     print(os.path.join(path,'fuckdisk'+str(times)),'is written!')
 
@@ -15,7 +15,8 @@ def Clean():
         print('Successfully removed',x)
 print('Welcome to use FuckDrive!\n')
 print('\033[1;31mThis program is harmful! This program will write a lot of rubbish files in your drive!\033[0m')
-confirm=input('Please input "I have already known the harm of the program." to continue: ')
+confirm=input('Please input "I have already known the harm of the program." to continue: \033[0;33m')
+print('\033[0m',end='')
 if confirm != 'I have already known the harm of the program.':
     print('You didn\'t type the correct words. The program will exit.')
     sys.exit(0)
@@ -28,7 +29,7 @@ try:
 except ValueError:
     print('This is not a correct file size.')
     sys.exit(255)
-write_str='f'*1024*1024*filesize
+write_str='f'
 print('\nPress Enter to fuck once, press "C" to clean the rubbish file, or press "Q" to quit.')
 times = 0
 while True:
