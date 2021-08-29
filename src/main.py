@@ -14,7 +14,7 @@ def Clean():
         os.remove(x)
         print('Successfully removed',x)
 print('Welcome to use FuckDrive!\n')
-print('\033[1;31mThis program is harmful! This program will write a lot of rubbish file in your drive!\033[0m')
+print('\033[1;31mThis program is harmful! This program will write a lot of rubbish files in your drive!\033[0m')
 confirm=input('Please input "I have already known the harm of the program." to continue: ')
 if confirm != 'I have already known the harm of the program.':
     print('You didn\'t type the correct words. The program will exit.')
