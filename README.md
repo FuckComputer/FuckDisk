@@ -2,7 +2,7 @@
 > 
 > -- Chi_Tang
 
-# FuckMemory
+# FuckDrive
 This is a **WONDERFUL** program to fuck your drive!    
 This program will write a lot of rubbish files into your drive.  
 It is very safe. Enjoy it!
