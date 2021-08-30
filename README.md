@@ -21,5 +21,8 @@ python src/main.py
 
 And it will run!
 
+## Usage
+WIP
+
 ## License
 GPL-3.0
