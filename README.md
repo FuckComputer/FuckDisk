@@ -9,7 +9,7 @@ It is very safe. Enjoy it!
 
 ## Run
 ### Dependencies
-- Python 3.4 or above
+- Python 3.8 or above
 - getch
 
 ### Linux & macOS & Windows & Android Termux
