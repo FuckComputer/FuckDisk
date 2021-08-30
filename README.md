@@ -2,6 +2,8 @@
 > 
 > -- Chi_Tang
 
+[![State-of-the-art Shitcode](https://img.shields.io/static/v1?label=State-of-the-art&message=Shitcode&color=7B5804)](https://github.com/trekhleb/state-of-the-art-shitcode)
+
 # FuckDrive
 This is a **WONDERFUL** program to fuck your drive!    
 This program will write a lot of rubbish files into your drive.  
