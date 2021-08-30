@@ -22,7 +22,8 @@ if confirm != 'I have already known the harm of the program.':
     sys.exit(0)
 path=input('Please type the path which will be fucked by the program: \033[0;33m')
 print('\033[0m',end='')
-path=path.replace('~',os.getenv('HOME'))
+if os.name == 'posix':
+    path=path.replace('~',os.getenv('HOME'))
 if not os.path.exists(path):
     print('Oooops! This path does not exist!')
     sys.exit(255)
