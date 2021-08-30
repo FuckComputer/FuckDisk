@@ -20,12 +20,14 @@ print('\033[0m',end='')
 if confirm != 'I have already known the harm of the program.':
     print('You didn\'t type the correct words. The program will exit.')
     sys.exit(0)
-path=input('Please type the path which will be fucked by the program: ')
+path=input('Please type the path which will be fucked by the program: \033[0;33m')
+print('\033[0m',end='')
 if not os.path.exists(path):
     print('Oooops! This path does not exist!')
     sys.exit(255)
 try:
-    filesize=int(input('Please input the size of each rubbish file in MB: '))
+    filesize=int(input('Please input the size of each rubbish file in MB: \033[0;33m'))
+    print('\033[0m',end='')
 except ValueError:
     print('This is not a correct file size.')
     sys.exit(255)
