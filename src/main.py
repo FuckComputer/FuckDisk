@@ -13,8 +13,8 @@ def Clean():
     for x in ls:
         os.remove(x)
         print('Successfully removed',x)
-print('Welcome to use FuckDrive!\n')
-print('\033[1;31mThis program is harmful! This program will write a lot of rubbish files in your drive!\033[0m')
+print('Welcome to use FuckDisk!\n')
+print('\033[1;31mThis program is harmful! It will write a lot of rubbish files into your disk!\033[0m')
 confirm=input('Please input "I have already known the harm of the program." to continue: \033[0;33m')
 print('\033[0m',end='')
 if confirm != 'I have already known the harm of the program.':

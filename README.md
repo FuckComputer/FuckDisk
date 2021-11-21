@@ -1,12 +1,12 @@
 > *Let everyone enjoy the fun of fucking*
 > 
-> -- Chi_Tang
+> -- Chi\_Tang
 
 [![State-of-the-art Shitcode](https://img.shields.io/static/v1?label=State-of-the-art&message=Shitcode&color=7B5804)](https://github.com/trekhleb/state-of-the-art-shitcode)
 
 # FuckDrive
-This is a **WONDERFUL** program to fuck your drive!    
-This program will write a lot of rubbish files into your drive.  
+This is a **WONDERFUL** program to fuck your disk!    
+It will write a lot of rubbish files into your disk.  
 It is very safe. Enjoy it!
 
 ## Run
@@ -21,7 +21,7 @@ Just run
 python src/main.py
 ```
 
-And it will run!
+And it will work!
 
 ## Usage
 WIP
