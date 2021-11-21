@@ -4,7 +4,7 @@
 
 [![State-of-the-art Shitcode](https://img.shields.io/static/v1?label=State-of-the-art&message=Shitcode&color=7B5804)](https://github.com/trekhleb/state-of-the-art-shitcode)
 
-# FuckDrive
+# FuckDisk
 This is a **WONDERFUL** program to fuck your disk!    
 It will write a lot of rubbish files into your disk.  
 It is very safe. Enjoy it!
